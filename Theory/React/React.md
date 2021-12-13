@@ -15,3 +15,15 @@ JSX In Depth: https://reactjs.org/docs/jsx-in-depth.html
 여기 영상에서 추가로 하나더 알려드렸어요: https://youtu.be/m7wsrVQsVjI
 
 주석색깔 바꾸는 방법은: https://youtu.be/2UaKfAz-eEI
+
+폰트오쏨 명령어:
+
+yarn add @fortawesome/fontawesome-free
+
+index.js에 추가해야 하는 코드:
+
+import '@fortawesome/fontawesome-free/js/all.js';
+
+브라우저 Event, MDN: https://developer.mozilla.org/en-US/docs/Web/API/Event
+
+리액트 Handling Events: https://reactjs.org/docs/handling-events.html
