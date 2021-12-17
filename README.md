@@ -1,3 +1,8 @@
-# My Labo
+# Today I Learned a.k.a. TIL
 
--공부하고 연구한 내용을 기록해두는 공간입니다.
+<div align="center">
+  Hi, there!👋 welcome to my Lab.😄
+   
+   <img src="https://user-images.githubusercontent.com/87082855/146528178-f12911c6-2ad3-424f-a242-2e8c939540f8.gif" width="50%" height="50%"/>
+
+</div>
