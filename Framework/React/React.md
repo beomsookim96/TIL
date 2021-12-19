@@ -12,7 +12,7 @@ JSX In Depth: https://reactjs.org/docs/jsx-in-depth.html
 
 프론트엔드 유용한 익스텐션: https://youtu.be/bS9yTI2fC0w
 
-여기 영상에서 추가로 하나더 알려드렸어요: https://youtu.be/m7wsrVQsVjI
+https://youtu.be/m7wsrVQsVjI
 
 주석색깔 바꾸는 방법은: https://youtu.be/2UaKfAz-eEI
 
