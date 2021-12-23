@@ -13,7 +13,7 @@ author:
   name: beomsookim96
   bio: 개발자
   userpicture: 
-  username: # general username
+  username: beomsookim96 # general username
   github: beomsookim96 # github username
   twitter: # twitter username
   email: rlaqjatn7177@gmail.com # email adress
@@ -24,7 +24,8 @@ googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;
 # URL settings
 url: "https://beomsookim96.github.io" # Domain Name of host. [username].github.io for github pages
 baseurl: "/beomsookim96.github.io" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
-permalink: pretty
+permalink: "beomsookim96.github.io"
+#permalink: pretty
 
 # local
 # url: "http://localhost:4000" # 
