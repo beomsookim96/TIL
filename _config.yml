@@ -5,25 +5,25 @@ description: >-
   just a minimalist, personal blog
 lang: en-US
 timezone:  Europe/Rome
-repo: https://https://github.com/beomsookim96/beomsookim96.github.io # site repo [optional]
+repo: https://github.com/beomsookim96/beomsookim96.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
-discus-identifier: powex # replace with your disqus shortname
+discus-identifier: beomsookim96 # replace with your disqus shortname
 
 author:
-  name: gesko
-  bio: just a minimalist, personal blog
+  name: beomsookim96
+  bio: 개발자
   userpicture: 
   username: # general username
   github: # github username
   twitter: # twitter username
-  email: your-email@email.com # email adress
+  email: rlaqjatn7177@gmail.com # email adress
 
 # Font Settings
 googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
 
 # URL settings
-url: "https://p0wex.github.io" # Domain Name of host. [username].github.io for github pages
-baseurl: "/Gesko" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+url: "https://beomsookim96.github.io" # Domain Name of host. [username].github.io for github pages
+baseurl: "/beomsookim96.github.io" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
 permalink: pretty
 
 # local
