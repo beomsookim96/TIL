@@ -1,10 +1,10 @@
-site: Gesko
-title: Gesko
-greetings: Hi 👋
+site: beomsookim96
+title: beomsookim96
+greetings: Hi :)
 description: >-
-  just a minimalist, personal blog
+  개발자
 lang: en-US
-timezone:  Europe/Rome
+timezone:  Asia/Korea
 repo: https://github.com/beomsookim96/beomsookim96.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 discus-identifier: beomsookim96 # replace with your disqus shortname
@@ -14,7 +14,7 @@ author:
   bio: 개발자
   userpicture: 
   username: # general username
-  github: # github username
+  github: beomsookim96 # github username
   twitter: # twitter username
   email: rlaqjatn7177@gmail.com # email adress
 
