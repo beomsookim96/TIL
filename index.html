@@ -5,11 +5,14 @@ layout: default
     <div class="flex-row-between">
         <h1>{{ site.greetings }}</h1>
         <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
-            <div></div>
+            <a href="#">change theme</a>
         </button>
     </div>
     <div class="bio">
-	    {{ site.description }}
+        <div>
+            <img src="profile.png" style="width: 20%; border-radius: 50%;">
+        </div>
+        {{ site.description }}
         <p>
 	    <a href="{{ site.url }}{{ site.baseurl }}/about/">> About me</a>
         </p>
@@ -18,7 +21,18 @@ layout: default
 
 </section>
 
-
+<section class="tags">
+    {% assign tags = site.tags | sort %}
+    <ul>
+    {% for tag in tags %}
+        <li>
+            <a class="posts" href="{{ site.url }}{{ site.baseurl }}/tag/{{ tag | first | slugify }}/">{{ tag[0] | replace:'-', ' '
+                }}{% unless forloop.last %} {% endunless %}
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+</section>
 
 <div class="search-article">
     <label for="search-input" aria-hidden="true">
@@ -31,8 +45,8 @@ layout: default
         </svg>
     </label>
 
-    <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
-    <ul id="search-results"></ul>
+    <input type="search" id="search-input" placeholder="Type what you need" aria-label="Search">
+    <ul style="list-style: none" id="search-results"></ul>
 </div>
 
 <section class="posts" id="Blog">

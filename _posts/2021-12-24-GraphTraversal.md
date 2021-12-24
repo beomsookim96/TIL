@@ -1,3 +1,11 @@
+---
+layout: post
+title: Graph Traversal
+description: this is template.
+tags: algorithm
+minute: 1
+---
+
 그래프 순회(Graph Traversal)
 ===
 

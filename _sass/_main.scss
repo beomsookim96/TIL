@@ -100,15 +100,15 @@ html[data-theme="light"] {
 html[data-theme="dark"] {
 	--text-font: Play;
 	--source-code-font: Source Code Pro;
-	--very-light-text-color: rgb(0, 255, 255);
+	--very-light-text-color: rgb(255, 255, 255);
 	--light-text-color: #c4bbf0;
 	--medium-text-color: #ff00d4;
-	--main-text-color: #00ffff;
+	--main-text-color: #ffffff;
 	--highlight-text-color: #b3ff00;
 	--dark-text-color: rgb(148, 148, 148);
-	--link-color: rgb(51, 255, 0);
+	--link-color: rgb(47, 255, 0);
 	--code-bg-color: rgb(43, 43, 43);
-	background-color: rgb(19, 20, 24);
+	background-color: rgb(0, 0, 0);
 
 	#theme-toggle div {
 		position: relative;
@@ -242,6 +242,10 @@ section {
 }
 
 section {
+	margin-top: 1.8rem;
+}
+
+#intro{
 	margin-top: 5.5rem;
 }
 
@@ -348,7 +352,7 @@ b {
 }
 
 time {
-	color: var(--main-text-color);
+	color: rgb(26, 233, 253);
 }
 
 .post > h1.title {
@@ -438,14 +442,24 @@ figcaption {
 }
 
 .bio {
-	margin-bottom: 5rem;
+	margin-bottom: 0rem;
 }
 
 ::selection {
-background-color: #fffba0;
-color: #333;
+background-color: #000065;
+color: #00eaff;
 }
 
+input::-ms-clear,
+input::-ms-reveal{
+	display:none;width:0;height:0;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+	display:none;
+}
 
 .search-article {
   position: relative;
@@ -467,12 +481,13 @@ color: #333;
     position: absolute;
     border-radius: 5px;
     padding: 10px 10px 10px 35px;
-    color: var(--main-text-color);
+    //color: var(--main-text-color);
+	color: rgb(255, 255, 255);
     -webkit-appearance: none;
-    background-color: rgba(128, 128, 128, 0.1);
-    border: 1px solid rgba(128, 128, 128, 0.1);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 0, 248);
     &::-webkit-input-placeholder {
-      color: #808080;
+      color: #ffffff;
     }
     &::-webkit-search-decoration,
     &::-webkit-search-results-decoration {
@@ -556,6 +571,8 @@ color: #333;
 
 
 .tags li {
+	float: left;
+	margin: 0.2rem;
 	white-space: normal;
 	text-overflow: ellipsis;
 	}
