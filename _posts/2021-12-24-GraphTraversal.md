@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Graph Traversal(그래프 탐색)
+title: Graph Traversal
 description: this is template.
 tags: algorithm
 minute: 1

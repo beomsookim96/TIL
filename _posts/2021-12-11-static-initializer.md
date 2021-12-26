@@ -1,5 +1,12 @@
-Static initializer block
-===
+---
+layout: post
+title: static-intializer
+description: static-intializer
+tags: java
+minute: 1
+---
+
+#### Static initializer block
 
 ```java
 
