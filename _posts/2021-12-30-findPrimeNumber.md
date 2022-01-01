@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FindPrimeNumber
+title: Find Prime Number
 description: FindPrimeNumber algorithm
 tags: algorithm java
 minute: 1
