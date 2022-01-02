@@ -2,7 +2,7 @@
 layout: post
 title: Thymeleaf
 description: Thymeleaf Grammar
-tags: serverside-template
+tags: serversideTemplate
 minute: 1
 ---
 
