@@ -26,15 +26,15 @@ public class Main {
         int sum = values.size();
         System.out.print(sum + " ");
 
-        for (int i = 1; i <= n-m; i++) {
+        for (int i = 0; i <= n-m; i++) {
             //왼쪽 끝의 것을 뺀다. 오른쪽 끝의 것을 더한다.
-            int tmp = sell[i-1];
+            int tmp = sell[i];
             values.put(tmp, values.getOrDefault(tmp,0)-1);
             if(values.get(tmp)==0){
                 sum--;
             }
-            values.put(sell[i+m-1], values.getOrDefault(sell[i+m-1],0)+1);
-            if(values.get(sell[i+m-1])==1){
+            values.put(sell[i+m], values.getOrDefault(sell[i+m],0)+1);
+            if(values.get(sell[i+m])==1){
                 sum++;
             }
             System.out.print(sum + " ");
